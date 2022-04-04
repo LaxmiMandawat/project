@@ -1,0 +1,18 @@
+.contain{
+    float:left;
+
+}
+
+.col-sm-4 img{
+    height:300px;
+    width:100%;
+    margin:30px 30px 30px 30px;
+}.col-sm-4{
+    width:50%;
+
+}
+.col-sm-8{
+    float:right;
+    width:50%;
+    margin-top:30px;
+}
