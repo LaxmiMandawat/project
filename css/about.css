@@ -10,11 +10,22 @@
     margin:30px 30px 30px 30px;
 }.col-sm-4{
     width:50%;
+    margin-top: 111px;
 
 }
 .col-sm-8{
     float:right;
     width:50%;
+    margin: 50px 50px 50px 50px;
     margin:30px 30px30px 30px ;
     height:300px;
+    margin-top: 180px;
+}
+.col-sm-8 a{
+    height:20px;
+    width:50px;
+    border-radius:20px;
+    border:2px solid black;
+    text-decoration: node;
+    background-color: aliceblue;
 }
