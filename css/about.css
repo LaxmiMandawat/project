@@ -23,6 +23,8 @@
 }
 .col-sm-6 h1{
     font-size:50px;
+    color: #141111;
+    text-shadow: 2px 2px 4px #000000;
 }
 .col-sm-6 p{
     margin-bottom:35px;
@@ -36,7 +38,7 @@
     border-radius:20px;
     border:2px solid black;
     text-decoration: none;
-    background-color: rgb(239, 138, 220);
+    background-color: rgb(20, 190, 202);
 }
 .col-sm-10 .contain{
     margin-left: 13%;
