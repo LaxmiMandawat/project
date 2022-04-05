@@ -14,6 +14,7 @@
 
 }
 .col-sm-8{
+
     float:right;
     width:50%;
     margin: 50px 50px 50px 50px;
@@ -21,11 +22,23 @@
     height:300px;
     margin-top: 180px;
 }
+.col-sm-8 h1{
+    font-size:50px;
+}
+.col-sm-8 p{
+    margin-bottom:35px;
+}
 .col-sm-8 a{
+    color:black;
+
+    padding:5px;
     height:20px;
     width:50px;
     border-radius:20px;
     border:2px solid black;
-    text-decoration: node;
-    background-color: aliceblue;
+    text-decoration: none;
+    background-color: rgb(239, 138, 220);
+}
+#About{
+    background-color:yellow;
 }
