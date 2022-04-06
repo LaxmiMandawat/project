@@ -1,0 +1,25 @@
+.col-sm-6
+{
+    width: 50%;
+    border: 2px solid black;
+    justify-content: center;
+    margin:auto;
+    height:550px;
+
+}
+.col-sm-6 h2{text-align: center;}
+.col-sm-6 .account-type{
+    display: flex;
+    width: 50%;
+    height: 100px;
+    
+}
+.col-sm-6 .account-type .user img{
+height:100px;
+width:100px;
+}
+.col-sm-6 .account-type .hawker img{
+    height:100px;
+    width:100px;
+    }
+    
