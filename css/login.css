@@ -1,6 +1,6 @@
 .col-sm-6
 {
-    width: 50%;
+    width: 30%;
     border: 2px solid black;
     justify-content: center;
     margin:auto;
@@ -10,7 +10,7 @@
 .col-sm-6 h2{text-align: center;}
 .col-sm-6 .account-type{
     display: flex;
-    width: 50%;
+    width: 30%;
     height: 100px;
     position: absolute;
     justify-content: center;
@@ -40,7 +40,7 @@ padding-left: 15px;
     } */
       
 .center {
-        margin-top: 120px;
+        margin-top: 72px;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -50,6 +50,10 @@ padding-left: 15px;
         background-color: #0f1010;
         color: black;
         border-radius: 5px
+    }
+ .forgotpassword{
+    margin-top: 77px;
+ text-align: center;
     }
 .Login {
 margin-top: 200px;
