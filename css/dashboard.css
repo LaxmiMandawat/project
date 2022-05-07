@@ -1,0 +1,234 @@
+#About{
+    float:left;
+    display:flex;
+
+}
+
+.col-sm-4 img{
+    height:400px;
+    width:70%;
+    margin:30px 30px 30px 30px;
+}.col-sm-4{
+    width:50%;
+    margin-top: 111px;
+
+}
+ .col-sm-6{
+
+    float:right;
+    width:40%;
+  
+    height:300px;
+    margin-top: 140px;
+    
+  
+}
+.col-sm-6 h1{
+    font-size:50px;
+    color: #141111;
+    text-shadow: 2px 2px 4px #000000;
+}
+.col-sm-6 p{
+    margin-bottom:35px;
+}
+.col-sm-6 a{
+    color:black;
+
+    padding:5px;
+    height:20px;
+    width:50px;
+    border-radius:20px;
+    border:2px solid black;
+    text-decoration: none;
+    background-color: rgb(20, 190, 202);
+}
+.col-sm-10 .contain{
+    margin-left: 13%;
+    margin-top: 2%;
+    width: 88%;
+    background-color: aliceblue;
+    height: 603px;
+    display:flex;
+}
+
+
+
+
+/*navbar*/
+.paddoff{
+    padding: 0px !important;
+}
+
+/* top-nav bar */
+#top-nav{
+  width: 100%;
+}
+
+.topnav{
+    width: 100%;
+    background-color: #2F5168;
+    background-color: #4c6c94;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    z-index: 52;
+}
+.topnav a{
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    /* border: 1px solid #f2f2f2; */
+}
+.topnav a:hover {
+    background-color:#f2f2f2;
+    color: steelblue;
+  }
+  .topnav span,i.fas{
+    height: 10px;
+    width: 10px;
+  }
+.topnav .fa{
+    float:left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 8px 16px;
+    font-size: 17px;
+    transition: 0.4s;
+    cursor: pointer;
+    height: 40px;
+    /* display: none; */
+  }
+.topnav .fa:hover{
+    background-color: steelblue;
+    color: #f2f2f2;
+}
+
+#Ham{
+    width: 16.666667%;
+    height: 104%;
+    float: left;
+    /* display: none; */
+    position: fixed;
+    overflow: visible;
+    z-index: 52;
+    /* margin-top: 2px; */
+    margin-left: -29px;
+}
+
+.sidenav{
+  width: 16.66666667%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    /* display: block; */
+    padding-top: 40px;
+    background-color: steelblue;
+}
+.sidenav a {
+    /* padding: 6px 28px 10px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #3f2828;
+    display: block; */
+    padding: 6px 28px 10px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 45px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    color: #3f2828;
+    display: block;
+  }
+  .sidenav a:hover {
+    color: snow;
+    background-color: rgb(56, 36, 184);
+    background-color: #1c3a5c;
+  }
+ .main {
+    margin-left: 200px; 
+   } 
+
+  @media screen and (max-width: 756px) {
+    /* #side-nav .sidenav{display:none;} */
+    #top-nav .topnav .fa{display:block;}
+    #Ham {display: none;}
+  }
+
+.active{
+    display: block;
+}
+.non-active{
+    display: none;
+}
+
+#side-nav .content{
+  /* width:100%;
+  float:left; */
+  margin-bottom:20%;
+} 
+/*search by kriti*/
+.search-box{
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+}
+.input-search{
+  height: 50px;
+  width: 50px;
+  border-style: none;
+  padding: 10px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  outline: none;
+  border-radius: 25px;
+  transition: all .5s ease-in-out;
+  background-color: #22a6b3;
+  padding-right: 40px;
+  color:#fff;
+}
+.input-search::placeholder{
+  color:rgba(255,255,255,.5);
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+.btn-search{
+  width: 50px;
+  height: 50px;
+  border-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+  color:#ffffff ;
+  background-color:transparent;
+  pointer-events: painted;  
+}
+.btn-search:focus ~ .input-search{
+  width: 300px;
+  border-radius: 0px;
+  background-color: transparent;
+  border-bottom:1px solid rgba(255,255,255,.5);
+  transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+.input-search:focus{
+  width: 300px;
+  border-radius: 0px;
+  background-color: transparent;
+  border-bottom:1px solid rgba(255,255,255,.5);
+  transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+
+
+
+
+
+
